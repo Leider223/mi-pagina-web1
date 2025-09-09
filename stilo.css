@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: floralwhite;
+    color: black;
+}
+
+header {
+    background: rgb(65, 182, 143);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92vh;
+    text-align: center;
+    border-radius: 15px;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.3)), url(img/johanne-pold-jacobsen-XYkc3MfT7b4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    background: rgb(100, 84, 69);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hero {
+    background: url();
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(26, 23, 23);
+    text-shadow: 2xp 2xp 6xp, black;
+    font-size: 2em;
+    text-align: center;
+}
+
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: rgb(25, 30, 30);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px, rgb(0, 0, 0);
+    text-align: center;
+    transition: trasnform 0.3s;
+    margin: 10px;
+}
+
+.card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: rgb(100, 84, 69);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#facial {
+    background-image: url(img/servicioFacial.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#servicioCompleto{
+
+    background-image: url(img/servicioComplete.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#Peinados{
+    background-image: url(img/peinado.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#Maquillaje{
+    background-image: url(img/maquillaje.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
