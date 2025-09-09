@@ -17,12 +17,11 @@ header {
     height: 92vh;
     text-align: center;
     border-radius: 15px;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.3)), url(img/johanne-pold-jacobsen-XYkc3MfT7b4-unsplash.jpg);
+    background-image: url(/img/inicio.jpg);
+    opacity: 80%;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 nav {
@@ -100,7 +99,7 @@ footer {
 }
 
 #facial {
-    background-image: url(img/servicioFacial.jpg);
+    background-image: url(/img/servicioFacial.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,8 +112,7 @@ footer {
 }
 
 #servicioCompleto{
-
-    background-image: url(img/servicioComplete.jpg);
+    background-image: url(/img/servicioComplete.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,7 +125,7 @@ footer {
 }
 
 #Peinados{
-    background-image: url(img/peinado.jpg);
+    background-image: url(/img/peinado.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,7 +138,7 @@ footer {
 }
 
 #Maquillaje{
-    background-image: url(img/maquillaje.jpg);
+    background-image: url(/img/Maquillaje.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
